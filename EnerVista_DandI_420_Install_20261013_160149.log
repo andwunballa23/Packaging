@@ -1,0 +1,30 @@
+﻿2026-10-13 16:01:49	[INFO]	===========================================
+2026-10-13 16:01:49	[INFO]	Starting EnerVista D&I Setup 4.20 install.
+2026-10-13 16:01:49	[INFO]	Running as: CTXCP000014$
+2026-10-13 16:01:49	[INFO]	64-bit process: True
+2026-10-13 16:01:49	[INFO]	Source files: C:\Windows\ccmcache\4q
+2026-10-13 16:01:49	[INFO]	===========================================
+2026-10-13 16:01:49	[INFO]	Adding certificate C:\Windows\ccmcache\4q\GEMultilin.cer to TrustedPublisher store...
+2026-10-13 16:01:49	[INFO]	certutil exit code: 0
+2026-10-13 16:01:49	[INFO]	Adding certificate C:\Windows\ccmcache\4q\GeneralElectricCompany.cer to TrustedPublisher store...
+2026-10-13 16:01:49	[INFO]	certutil exit code: 0
+2026-10-13 16:01:50	[INFO]	Created missing SYSTEM profile folder: C:\WINDOWS\System32\config\systemprofile\Documents
+2026-10-13 16:01:50	[INFO]	Created missing SYSTEM profile folder: C:\WINDOWS\SysWOW64\config\systemprofile\Documents
+2026-10-13 16:01:50	[INFO]	TEMP and TMP set to C:\WINDOWS\Temp\EnerVista_DandI (originally C:\WINDOWS\TEMP)
+2026-10-13 16:01:50	[INFO]	Running main installer silently...
+2026-10-13 16:01:50	[INFO]	Arguments: -s -f1"C:\Windows\ccmcache\4q\install.iss" -f2"C:\distrib\logs\EnerVista_DandI_420_ISSetup_20261013_160149.log"
+2026-10-13 16:02:53	[INFO]	Main installer exit code: 0
+2026-10-13 16:02:53	[INFO]	Main installer ResultCode=-3
+2026-10-13 16:02:53	[INFO]	Main installation completed. Log: C:\distrib\logs\EnerVista_DandI_420_ISSetup_20261013_160149.log
+2026-10-13 16:02:53	[INFO]	TEMP and TMP restored.
+2026-10-13 16:02:53	[INFO]	Running MSI installer: C:\Windows\ccmcache\4q\others\1\GE_RNDIS.msi
+2026-10-13 16:02:53	[INFO]	MSI log: C:\distrib\logs\EnerVista_DandI_420_GE_RNDIS_20261013_160149.log
+2026-10-13 16:02:56	[INFO]	msiexec exit code for GE_RNDIS : 0
+2026-10-13 16:02:56	[INFO]	Running MSI installer: C:\Windows\ccmcache\4q\others\2\GE_RNDIS_400.msi
+2026-10-13 16:02:56	[INFO]	MSI log: C:\distrib\logs\EnerVista_DandI_420_GE_RNDIS_400_20261013_160149.log
+2026-10-13 16:02:59	[INFO]	msiexec exit code for GE_RNDIS_400 : 0
+2026-10-13 16:02:59	[INFO]	Running MSI installer: C:\Windows\ccmcache\4q\others\3\GE Bridge RNDIS Driver.msi
+2026-10-13 16:02:59	[INFO]	MSI log: C:\distrib\logs\EnerVista_DandI_420_GEBridgeRNDISDriver_20261013_160149.log
+2026-10-13 16:03:04	[INFO]	msiexec exit code for GEBridgeRNDISDriver : 0
+2026-10-13 16:03:04	[INFO]	All installations completed.
+2026-10-13 16:03:04	[INFO]	===========================================
